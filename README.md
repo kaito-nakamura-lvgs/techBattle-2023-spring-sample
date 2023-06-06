@@ -1,5 +1,15 @@
 # tech-battle-techfes-2023-spring
 
+# API 制約
+- メソッドはPOSTのみ
+- URLは「converta」「convertb」のみ
+- 「Content-Length」を含む
+- 「Content-Length」に数値が入っている
+- リクエストのサイズは1M以内
+- bodyにはcsv形式を入れる
+- 文字コードはUTF-8
+- 改行コードはLF
+
 # レスポンス
 
 ## 正常
