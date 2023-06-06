@@ -17,7 +17,7 @@ type ErrorData =
 }
 
 // csvファイルを読み込む例です。適宜値を変えてください。
-const body = readFileSync(`${__dirname}/../../../sample_data/input_1.csv`, { encoding: "utf8" })
+const body = readFileSync(`${__dirname}/../../sample_data/input_1.csv`, { encoding: "utf8" })
 
 export async function convertData(body: string) {
   // 1つ目のAPIを実行
