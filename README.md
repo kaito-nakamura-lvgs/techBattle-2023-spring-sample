@@ -1,5 +1,14 @@
 # tech-battle-techfes-2023-spring
 
+# サーバ起動方法
+```
+# dockerフォルダ内で実行
+docker compose up -d --build
+
+# 停止
+docker-compose down
+```
+
 # API 制約
 - メソッドはPOSTのみ
 - URLは「converta」「convertb」のみ
@@ -39,7 +48,7 @@
 }
 ```
 
-# curl
+# crul
 
 ## 変換プログラム 1 を実行する curl コマンド
 
